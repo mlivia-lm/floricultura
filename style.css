@@ -1,0 +1,115 @@
+header {
+    background: linear-gradient(135deg, #e9d7f7, #c4a7e7); /* degradê lilás suave */
+    padding: 30px 20px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(180, 156, 224, 0.4);
+    max-width: 600px;
+    margin: 40px auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #5a2d7a; /* roxo escuro */
+}
+
+header h1 {
+    font-size: 2rem;
+    margin: 0;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-shadow: 1px 1px 3px #d5c0f9; /* sombra lilás clara */
+}
+
+.subtitle {
+    font-size: 1rem;
+    margin-top: 5px;
+    color: #7d5abb; /* lilás médio */
+    font-style: italic;
+}
+
+header h2 {
+    font-size: 1.5rem;
+    margin: 25px 0 15px 0;
+    font-weight: 600;
+    color: #6f4bb9; /* lilás forte */
+}
+
+header p {
+    font-size: .9rem;
+    margin: 8px 0;
+}
+
+header p strong {
+    color: #7044b2; /* lilás escuro */
+    font-weight: 700;
+}
+
+.turnos {
+    font-size: 0.6rem;
+    margin-top: 18px;
+    color: #5e3a88;
+    font-style: italic;
+}
+
+.produtos {
+    display: flex;
+    flex-direction: row; /* mudar de column pra row */
+    flex-wrap: wrap; /* permite quebrar linha */
+    gap: 20px;
+    padding: 20px;
+    justify-content: center; /* centraliza os produtos na linha */
+}
+.produto {
+    background-color: #f7f3fb;
+    border: 2px solid #d1c4f7;
+    border-radius: 12px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px #00000010;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex: 1 1 45%;
+    max-width: 45%;
+    box-sizing: border-box;
+}
+
+.produto h2 {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    color: #6f4bb9; /* lilás forte */
+}
+
+.produto p {
+    font-size: .9rem;
+    margin: 5px 0 15px;
+}
+.botao {
+    background-color: #8a6de9;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+
+    margin-top: auto; /* empurra o botão para a base do card */
+}
+
+.botao:hover {
+    background-color: #6941d9; /* lilás escuro no hover */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #e7d5f3;
+    font-size: 0.65rem;
+}
+
+.img-buque {
+    width: 140px;
+    border-radius: 50%;
+    display: block;       /* pra centralizar como bloco */
+    margin: 0 auto 15px;  /* centraliza horizontalmente e dá espaçamento embaixo */
+}
