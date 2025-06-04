@@ -108,8 +108,18 @@ footer {
 }
 
 .img-buque {
-    width: 140px;
+    width: 100%;
+    max-width: 140px; /* evita que ela fique gigante */
+    height: auto;     /* mantém a proporção da imagem */
     border-radius: 50%;
-    display: block;       /* pra centralizar como bloco */
-    margin: 0 auto 15px;  /* centraliza horizontalmente e dá espaçamento embaixo */
+    display: block;
+    margin: 0 auto 15px;
 }
+
+@media (max-width: 600px) {
+    .produto {
+      flex: 1 1 100%;
+      max-width: 100%;
+    }
+  }
+  
